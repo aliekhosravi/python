@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ostan"
+                android:id="@+id/textView6"
+                android:layout_marginTop="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView8" android:layout_alignEnd="@+id/textView8"
+                android:layout_alignLeft="@+id/textView7" android:layout_alignStart="@+id/textView7"/>
+        <Spinner
+                android:id="@+id/ostan"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_alignBottom="@+id/textView6" android:layout_toLeftOf="@+id/textView6"/>
+        <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/city"
+                android:id="@+id/textView7"
+                android:layout_above="@+id/spishal" android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8" android:layout_alignRight="@+id/textView8"
+                android:layout_alignEnd="@+id/textView8"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/city"
+                android:layout_below="@+id/textView6"
+                android:layout_toLeftOf="@+id/textView6" android:layout_alignLeft="@+id/ostan"/>
+        <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SPECIALTY"
+                android:id="@+id/textView8"
+                android:layout_above="@+id/btnsearch" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spishal"
+                android:layout_below="@+id/city" android:layout_alignLeft="@+id/city"
+                android:layout_alignRight="@+id/city"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:id="@+id/btnsearch"
+                android:layout_marginTop="95dp" android:layout_below="@+id/spishal"
+                android:layout_alignLeft="@+id/spishal"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:id="@+id/btnback"
+                android:layout_alignTop="@+id/btnsearch" android:layout_alignRight="@+id/spishal"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

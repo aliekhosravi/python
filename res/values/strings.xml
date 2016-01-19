@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">myapp</string>
+    <string name="our">"برنامه نویسان :عالیه خسروی
+        ماریه خسروی
+        اعظم غلامزاده"</string>
+    <string name="name">نام</string>
+    <string name="family">نام خانوادگی</string>
+    <string name="tel">شماره تلفن:</string>
+    <string name="jenseiat">جنسیت:</string>
+    <string name="male">مرد</string>
+    <string name="female">زن</string>
+    <string name="back">برگشت</string>
+    <string name="next">بعدی</string>
+    <string name="ostan">استان:</string>
+    <string name="city">شهر:</string>
+    <string name="SPECIALTY">تخصص:</string>
+    <string name="save">ذخیره</string>
+    <string name="Edit">ویرایش</string>
+    <string name="rezerv">رزو</string>
+    <string name="time">زمان و تاریخ</string>
+    <string name="docter">پزشک:</string>
+    <string name="search">جستجو</string>
+    <string name="sabt">ثبت</string>
+    <string name="saturday">شنبه</string>
+    <string name="sunnday">یکشنبه</string>
+    <string name="MONDAY">دوشنبه</string>
+    <string name="tuesday">سه شنبه</string>
+    <string name="wednesday">چهارشنبه</string>
+    <string name="thursday">پنجشنبه</string>
+    <string name="friday">جمعه</string>
+    <string name="day">روزهای کاری:</string>
+    <string name="scheouel">تعداد نوبت های هر ساعت</string>
+    </resources>

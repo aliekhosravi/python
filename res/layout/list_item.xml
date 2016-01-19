@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+        <TextView
+                android:layout_marginRight="15dp"
+
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:id="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentRight="true"
+                />
+        <TextView
+                android:id="@+id/editnamedocter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView9" android:layout_toLeftOf="@+id/textView10"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/family"
+                android:textSize="20dp"
+                android:layout_below="@+id/editnamedocter"
+                android:layout_alignRight="@+id/textView9"
+                android:layout_marginTop="47dp"
+                android:id="@+id/textView10"/>
+        <TextView
+                android:id="@+id/editfamilydocter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView10"
+                android:layout_toLeftOf="@+id/textView10"/>
+        <TextView
+                android:text="@string/tel"
+                android:textSize="20dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:layout_alignRight="@+id/textView9"
+                android:layout_marginTop="45dp"
+                android:layout_toRightOf="@+id/editfamilydocter" android:id="@+id/textView11"/>
+        <TextView
+                android:id="@+id/editteldocter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_toLeftOf="@+id/textView11"/>
+        <TextView
+                android:text="@string/SPECIALTY"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_below="@+id/textView11" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+        <TextView
+                android:id="@+id/spichaldocter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_alignBottom="@+id/textView12"
+                android:layout_toLeftOf="@+id/textView12"/>
+        <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/btnshow"
+                android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/spcitydocter"
+                android:layout_toEndOf="@+id/spcitydocter"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ostan"
+                android:textSize="20dp"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/textView12"
+                android:layout_alignRight="@+id/textView12"
+                android:layout_alignEnd="@+id/textView12" android:layout_alignLeft="@+id/spichaldocter"
+                android:layout_alignStart="@+id/spichaldocter"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/city"
+                android:textSize="20dp"
+                android:id="@+id/textView19"
+                android:layout_below="@+id/textView18"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="50dp" android:layout_alignLeft="@+id/textView18"
+                android:layout_alignStart="@+id/textView18"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/spostandocter" android:layout_below="@+id/textView12"
+                android:layout_centerHorizontal="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/spcitydocter"
+                android:layout_alignTop="@+id/textView19"
+                android:layout_centerHorizontal="true"/>
+        <TextView android:layout_width="wrap_content"
+                  android:text="@string/scheouel"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/textView19" android:layout_alignRight="@+id/textView19"
+                  android:layout_alignEnd="@+id/textView19" android:layout_marginTop="44dp"
+                  android:id="@+id/textView22"/>
+        <TextView android:layout_width="wrap_content"
+                  android:id="@+id/scheouel"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/textView22" android:layout_toRightOf="@+id/btnshow"
+                  android:layout_toEndOf="@+id/btnshow"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:text="@string/back"
+                android:id="@+id/btnback"
+                android:layout_alignTop="@+id/btnshow" android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

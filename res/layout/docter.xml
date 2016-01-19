@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_marginRight="15dp"
+
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentRight="true"
+                    />
+            <EditText
+                    android:id="@+id/editnamedocter"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView9" android:layout_toLeftOf="@+id/textView10"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/family"
+                    android:textSize="20dp"
+                    android:id="@+id/textView10"
+                    android:layout_below="@+id/editnamedocter" android:layout_alignRight="@+id/textView9"
+                    android:layout_alignEnd="@+id/textView9" android:layout_marginTop="42dp"/>
+            <EditText
+                    android:id="@+id/editfamilydocter"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView10"
+                    android:layout_toLeftOf="@+id/textView10"/>
+            <TextView
+                    android:text="@string/tel"
+                    android:textSize="20dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_alignRight="@+id/textView9"
+                    android:layout_marginTop="45dp"
+                    android:layout_toRightOf="@+id/editfamilydocter" android:id="@+id/textView11"/>
+            <EditText
+
+                    android:id="@+id/editteldocter"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView11"
+                    android:layout_toLeftOf="@+id/textView11"/>
+            <TextView
+                    android:text="@string/SPECIALTY"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignRight="@+id/textView11"
+                    android:layout_toRightOf="@+id/editteldocter" android:id="@+id/textView12"/>
+            <EditText
+                    android:id="@+id/spichaldocter"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:layout_alignBottom="@+id/textView12"
+                    android:layout_toLeftOf="@+id/textView12"/>
+            <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:id="@+id/btnshow"
+                    android:layout_below="@+id/spcitydocter" android:layout_alignLeft="@+id/spichaldocter"
+                    android:layout_alignStart="@+id/spichaldocter"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ostan"
+                    android:textSize="20dp"
+                    android:id="@+id/textView15"
+                    android:layout_below="@+id/textView12" android:layout_alignRight="@+id/textView12"
+                    android:layout_alignEnd="@+id/textView12" android:layout_marginTop="46dp"
+                    android:layout_alignLeft="@+id/textView12" android:layout_alignStart="@+id/textView12"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city"
+                    android:textSize="20dp"
+                    android:id="@+id/textView16"
+                    android:layout_marginTop="40dp" android:layout_below="@+id/textView15"
+                    android:layout_alignRight="@+id/textView15" android:layout_alignEnd="@+id/textView15"
+                    android:layout_alignLeft="@+id/textView15"
+                    android:layout_alignStart="@+id/textView15"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/scheouel"
+                      android:layout_above="@+id/spostandocter"
+                      android:layout_alignRight="@+id/textView15"
+                      android:layout_alignEnd="@+id/textView15" android:id="@+id/textView20"/>
+            <EditText
+                    android:id="@+id/scheouel"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/spostandocter" android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"/>
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spostandocter"
+                    android:layout_alignTop="@+id/textView15"
+                    android:layout_alignRight="@+id/spichaldocter"
+                    android:layout_alignEnd="@+id/spichaldocter"/>
+
+            <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spcitydocter"
+                    android:layout_below="@+id/textView16"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/spichaldocter"
+                    android:layout_alignEnd="@+id/spichaldocter"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

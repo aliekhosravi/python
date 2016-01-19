@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          >
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/app_name"
+                  android:textSize="30sp"
+                  android:padding="3dp"
+                  android:gravity="center"
+                  android:background="@color/actionbar_main"
+                  android:id="@+id/textView"/>
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+              android:layout_marginTop="70dp"
+              android:textSize="20dp"
+              android:layout_marginLeft="320dp"
+                android:id="@+id/textView2"/>
+     <EditText android:layout_width="200dp"
+               android:id="@+id/namesick"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@+id/textView2"
+               android:layout_toLeftOf="@+id/textView3"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/family"
+                android:id="@+id/textView3"
+                android:textSize="20dp"
+                android:layout_marginTop="42dp" android:layout_below="@+id/namesick"
+                android:layout_alignRight="@+id/textView2" android:layout_alignEnd="@+id/textView2"/>
+
+        <EditText android:layout_width="200dp"
+                  android:id="@+id/fsick"
+                  android:layout_height="wrap_content"
+                  android:layout_alignTop="@+id/textView3" android:layout_toLeftOf="@+id/textView3"/>
+       <TextView android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/tel"
+                 android:textSize="20dp"
+
+                 android:id="@+id/textView4"
+                 android:layout_alignBottom="@+id/telsick" android:layout_toRightOf="@+id/fsick"/>
+
+        <EditText android:layout_width="200dp"
+                  android:id="@+id/telsick"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true" android:layout_toLeftOf="@+id/textView4"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jenseiat"
+                android:id="@+id/textView5"
+                android:textSize="20dp" android:layout_below="@+id/textView4" android:layout_alignRight="@+id/textView3"
+                android:layout_marginTop="64dp"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:id="@+id/radioButton"
+                android:layout_marginLeft="66dp" android:layout_alignTop="@+id/radioButton2"
+                android:layout_alignLeft="@+id/telsick"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:id="@+id/radioButton2"
+                android:layout_below="@+id/textView5" android:layout_toRightOf="@+id/telsick"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:id="@+id/btnback"
+                android:layout_below="@+id/radioButton2"
+                android:layout_alignRight="@+id/textView3" android:layout_alignLeft="@+id/radioButton2"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:id="@+id/btnnext"
+                android:layout_below="@+id/radioButton" android:layout_alignLeft="@+id/radioButton"
+                android:layout_toLeftOf="@+id/radioButton2"/>
+    </RelativeLayout>
+
+</LinearLayout>

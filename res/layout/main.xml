@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/main">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/app_name"
+              android:textSize="30sp"
+              android:padding="3dp"
+              android:gravity="center"
+              android:background="@color/actionbar_main"
+              android:id="@+id/textView"/>
+    <LinearLayout
+            android:id="@+id/nabat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_1"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="نوبت دهی" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/sabtdocter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/our"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="ثبت نام دکتر"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_save"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="راهنما"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/our"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_helper"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="در باره ما"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
